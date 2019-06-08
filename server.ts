@@ -10,7 +10,7 @@ app.get("/tours", (req, res, next) => {
 })
 
 app.post("/tours", (req, res, next) => {
-  res.send("Add a new Tour...");
+  res.send("Add a new Tour....");
 })
 
 app.listen(process.env.PORT || 8091, () => {console.log("Server started...")});
